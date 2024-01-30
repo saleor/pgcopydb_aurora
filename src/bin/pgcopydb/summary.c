@@ -810,6 +810,18 @@ print_toplevel_summary(Summary *summary)
 	fformat(stdout, " %50s   %10s  %10s  %12s\n", d50s, d10s, d10s, d12s);
 
 	fformat(stdout, "\n");
+
+	fformat(stdout, "\n");
+
+    fformat(stdout, ">>>>>>>>>>>>>>>>>>>>>>>>>|||||||||||||<<<<<<<<<<<<<<<<<<<<<<<<<\n");
+
+    fformat(stdout, ">>>>>>>>>>>>>>>>>>>>>>>>> PART 1 DONE <<<<<<<<<<<<<<<<<<<<<<<<<\n");
+
+    fformat(stdout, ">>>>>>>>>>>>>>>>>>>>>>>>>|||||||||||||<<<<<<<<<<<<<<<<<<<<<<<<<\n");
+
+	fformat(stdout, "\n");
+
+	fformat(stdout, "\n");
 }
 
 
