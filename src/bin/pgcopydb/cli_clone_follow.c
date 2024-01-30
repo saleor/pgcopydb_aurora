@@ -618,6 +618,14 @@ cloneDB(CopyDataSpec *copySpecs)
 
 	(void) print_summary(&summary, copySpecs);
 
+	fformat(stdout, "\n");
+	fformat(stdout, "\n");
+    fformat(stdout, "######################################################################\n");
+    fformat(stdout, "######################### DB HAS BEEN CLONED #########################\n");
+    fformat(stdout, "######################################################################\n");
+	fformat(stdout, "\n");
+	fformat(stdout, "\n");
+
 	return true;
 }
 
