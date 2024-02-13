@@ -53,7 +53,7 @@ DEFAULT_CFLAGS += -Werror=implicit-int
 DEFAULT_CFLAGS += -Werror=implicit-function-declaration
 DEFAULT_CFLAGS += -Werror=return-type
 DEFAULT_CFLAGS += -Wno-declaration-after-statement
-DEFAULT_CFLAGS += -ggdb
+#DEFAULT_CFLAGS += -ggdb
 
 ifdef DEBUG
 # Use optimization option that provides good debugging experience
